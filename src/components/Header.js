@@ -1,12 +1,15 @@
 import React from "react";
+import DessertContainer from "./DessertContainer";
 
 function Header() {
     return (
-        <header>
-            <h1>
-                BakedBook
-            </h1>
+        <header style={{ background: 'blue', color: 'white', fontSize: 80, textAlign: 'center' }}>
+
+            🧁🍧🍩🍪🍰🍡BakedBook 🍡🍰🍪🍩🍧🧁
+
         </header>
+
+
     )
 }
 

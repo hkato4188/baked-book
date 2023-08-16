@@ -1,14 +1,19 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
-function Navbar() {
+//The NavLink changes the URL
+//Route conditionally renders a component when the URL matches the pattern given
+
+function NavBar() {
     return (
         <div>
-            <Navlink exact to="/">Home</Navlink>
-            <Navlink to="/add_dessert">Add Dessert</Navlink>
-            <Navlink to="/baked_greats">Baked Greats</Navlink>
-            <Navlink to="/let's_bake!">Let's Bake</Navlink>
+            <NavLink exact to="/">Home</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/add_dessert">Add Dessert</NavLink>
+            <NavLink to="/baked_greats">Baked Greats</NavLink>
+            <NavLink to="/let's_bake!">Let's Bake</NavLink>
         </div>
     )
 }
 
-export default Navbar
+export default NavBar
