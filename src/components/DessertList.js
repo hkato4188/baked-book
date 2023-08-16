@@ -1,9 +1,13 @@
 import React from "react";
-import DessertCard from "./Dessert"
+import DessertCard from "./DessertCard"
 
 function DessertList() {
     return (
-        <ul></ul>
+        <ul>
+            <li>
+                <DessertCard />
+            </li>
+        </ul>
     )
 }
 
