@@ -4,6 +4,7 @@ import NavBar from "./NavBar";
 import About from "./About";
 import Home from "./Home";
 import Header from "./Header";
+import "./css/App.css";
 // import DessertContainer from "./DessertContainer"
 
 function App() {

@@ -1,12 +1,13 @@
 import React from "react";
-import AddDessertForm from "./AddDessertForm";
+import DessertCard from "./DessertCard";
+import "./css/DessertContainer.css";
 
 function DessertContainer({ dessertList }) {
-  return (
-    <main>
-      <AddDessertForm />
-    </main>
-  );
+  const renderedDesserts = dessertList.map((dessert) => {
+    return <DessertCard key={dessert.id} dessert={dessert} />;
+  });
+
+  return <main className="wrapper">{renderedDesserts}</main>;
 }
 
 export default DessertContainer;

@@ -1,0 +1,11 @@
+.dessert-card {
+  padding-top: 5px;
+  flex-basis: 33.3333%;
+}
+
+.dessert-image {
+  max-width: 400px;
+  max-height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+}
