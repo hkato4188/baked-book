@@ -1,0 +1,36 @@
+.about-header {
+  font-size: 45px;
+  text-align: center;
+  font-weight: 600;
+  line-height: 45px;
+}
+
+.about-description {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 550;
+  line-height: 35px;
+}
+
+.about-content {
+  background-color: lightblue;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.about-paragraph {
+  font-size: 25px;
+  text-align: center;
+  font-weight: 450;
+  line-height: 35px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.about-bread {
+  max-width: 35%;
+  max-height: 35%;
+  display: flex;
+  padding: 15px;
+  margin: auto;
+}
