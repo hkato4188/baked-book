@@ -3,12 +3,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Test</p>
-      </header>
-    </div>
+    <h1>App</h1>
   );
 }
 
