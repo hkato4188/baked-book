@@ -1,15 +1,12 @@
 import React from "react";
-import AddDessertForm from "./AddDessertForm"
-import DessertList from "./DessertList"
+import AddDessertForm from "./AddDessertForm";
 
-
-function DessertContainer() {
-    return (
-        <main>
-            <AddDessertForm />
-            <DessertList />
-        </main>
-    )
+function DessertContainer({ dessertList }) {
+  return (
+    <main>
+      <AddDessertForm />
+    </main>
+  );
 }
 
-export default DessertContainer
+export default DessertContainer;

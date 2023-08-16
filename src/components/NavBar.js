@@ -9,10 +9,7 @@ function NavBar() {
   return (
     <div className="nav-container">
       <NavLink className="nav-btn nav-text" exact to="/">
-        Get Sweet
-      </NavLink>
-      <NavLink className="nav-btn nav-text" to="/about">
-        About
+        Home
       </NavLink>
       <NavLink className="nav-btn nav-text" to="/add_dessert">
         Add Dessert
@@ -22,6 +19,9 @@ function NavBar() {
       </NavLink>
       <NavLink className="nav-btn nav-text" to="/let's_bake!">
         Let's Bake
+      </NavLink>
+      <NavLink className="nav-btn nav-text" to="/about">
+        About
       </NavLink>
     </div>
   );
