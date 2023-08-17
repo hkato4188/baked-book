@@ -10,7 +10,7 @@ function DessertCard({ dessert }) {
       <img className="dessert-image" src={Image} alt={Name} />
       <h4>{Name}</h4>
       <div className="dessert-description">
-        <p>{`${Description.substring(0, 200)} ...`}</p>
+        <p>{`${Description.substring(0, 120)} ...`}</p>
       </div>
       <button className="recipe-btn ">
         <Link className="recipe-text" to={`/desserts/${id}`}>
