@@ -3,34 +3,51 @@ import { useParams } from "react-router-dom";
 import "./css/DessertDetail.css";
 
 function DessertDetail() {
+  const [dessert, setDessert] = useState(null)
   const { id } = useParams();
-  const [selectedDessert, setSelectedDessert] = useState(); //this could be the fix!
+  // const [selectedDessert, setSelectedDessert] = useState(); //this could be the fix!
 
   useEffect(() => {
     fetch(`http://localhost:8001/Recipes/${id}`)
       .then((response) => response.json())
-      .then((data) => setSelectedDessert(data));
+      .then((data) => setDessert(data));
   }, [id]);
+  // const renderInstructions = dessert.instructions.map((step) => <li>{step}</li>);
+  // const renderIngredients = dessert.ingredients.map((ingredient) => (
+  // <li>{ingredient}</li>
+  // ));
+  // 
 
-  const Method = selectedDessert.Method.map((step) => <li>{step}</li>);
-  const Ingredients = selectedDessert.Ingredients.map((ingredient) => (
+
+
+  if (!dessert) return <h1>...Loading</h1>;
+
+  const { name,
+    image,
+    source,
+    description,
+    author,
+    ingredients,
+    instructions } = dessert
+
+  const renderInstructions = dessert.instructions.map((step) => <li>{step}
+  </li>);
+  const renderIngredients = dessert.ingredients.map((ingredient) => (
     <li>{ingredient}</li>
   ));
-
-  if (!selectedDessert) return <h1>...Loading</h1>;
   return (
     <div className="dessert-detail">
       <img
         className="dessert-image"
-        src={selectedDessert.Image}
-        alt={selectedDessert.Name}
+        src={dessert.image}
+        alt={dessert.name}
       />
-      <h4>{selectedDessert.Name}</h4>
-      <h5>{`${selectedDessert.Description.substring(0, 200)} ...`}</h5>
-      <ol>{Ingredients}</ol>
-      <ul>{Method}</ul>
+      <h4>{dessert.Name}</h4>
+      <h5>{`${dessert.description.substring(0, 200)} ...`}</h5>
+      <ol>{renderIngredients}</ol>
+      <ul>{renderInstructions}</ul>
       <button>
-        <a href={selectedDessert.Source}>Learn More</a>
+        <a href={dessert.source}>Learn More</a>
       </button>
     </div>
   );

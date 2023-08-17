@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 import "./css/DessertCard.css";
 
 function DessertCard({ dessert }) {
-  const { id, Image, Name, Description } = dessert;
+  const { id, image, name, description } = dessert;
 
   return (
     <div className="dessert-card">
-      <img className="dessert-image" src={Image} alt={Name} />
-      <h4>{Name}</h4>
+      <img className="dessert-image" src={image} alt={name} />
+      <h4>{name}</h4>
       <div className="dessert-description">
-        <p>{`${Description.substring(0, 120)} ...`}</p>
+        <p>{`${description.substring(0, 120)} ...`}</p>
       </div>
 
       <button className="recipe-btn ">

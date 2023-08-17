@@ -2,17 +2,17 @@
   "Recipes": [
     {
       "id": 1,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-110457_11-9947d06.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Easy chocolate truffles",
-      "Source": "https://www.bbcgoodfood.com/recipes/182606/chocolate-truffles",
-      "Description": "I wouldn't say these are easy, but with practice they would be. They are lovely, I made separate dark ones with orange juice and zest, our homemadebyoliver Plum & Brandy Jam and Plum & Amareretto Jam. I also made white chocolate with homemade Gin Rhubarb & Raspberry Jam, I used various toppings, the white chocolate were the favourite, I think because they are sweeter.",
-      "Author": "Good Food",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-110457_11-9947d06.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Easy chocolate truffles",
+      "source": "https://www.bbcgoodfood.com/recipes/182606/chocolate-truffles",
+      "description": "I wouldn't say these are easy, but with practice they would be. They are lovely, I made separate dark ones with orange juice and zest, our homemadebyoliver Plum & Brandy Jam and Plum & Amareretto Jam. I also made white chocolate with homemade Gin Rhubarb & Raspberry Jam, I used various toppings, the white chocolate were the favourite, I think because they are sweeter.",
+      "author": "Good Food",
+      "ingredients": [
         "300g good-quality dark chocolate, 70% cocoa solids",
         "300ml pot double cream",
         "50g unsalted butter"
       ],
-      "Method": [
+      "instructions": [
         "Chop the chocolate and tip into a large bowl. Put the cream and butter into a saucepan and heat gently until the butter melts and the cream reaches simmering point. Remove from heat, then pour over the chocolate. Stir the chocolate and cream together until you have a smooth mixture. Add any flavourings to the truffle mix at this stage (divide the mixture between bowls and mix in liqueurs or other flavourings, a tsp at a time, to taste. Try bourbon, Grand Marnier, coconut rum or the zest and juice of an orange), or leave plain. Cool and chill for at least 4 hrs.",
         "To shape the truffles, dip a melon baller in hot water and scoop up balls of the mixture, then drop the truffles onto greaseproof paper. Or lightly coat your hands in flavourless oil (such as sunflower) and roll the truffles between your palms. You could also use a piping bag to pipe rounds onto greaseproof paper.",
         "Coat your truffles immediately after shaping. Tip toppings into a bowl and gently roll the truffles until evenly coated, then chill on greaseproof paper. Try: crushed, shelled pistachio nuts; lightly toasted desiccated coconut; or roll a truffle flavoured with orange zest and juice in cocoa powder. To coat in chocolate, line a baking tray with greaseproof paper. Melt 100g milk, dark or white chocolate for 10 truffles. Allow chocolate to cool slightly. With a fork, pick up one truffle at a time and hold over the bowl of melted chocolate. Spoon the chocolate over the truffle until well-coated. Place on the baking tray, then chill.",
@@ -21,12 +21,12 @@
     },
     {
       "id": 2,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-73664_12-3c3739e.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Walnut & raisin oatcakes",
-      "Source": "https://www.bbcgoodfood.com/recipes/68610/walnut-and-raisin-oatcakes",
-      "Description": "Quick and easy to make, these biscuits will add a flourish to the final Christmas course",
-      "Author": "Good Food",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-73664_12-3c3739e.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Walnut & raisin oatcakes",
+      "source": "https://www.bbcgoodfood.com/recipes/68610/walnut-and-raisin-oatcakes",
+      "description": "Quick and easy to make, these biscuits will add a flourish to the final Christmas course",
+      "author": "Good Food",
+      "ingredients": [
         "\u00bc tsp baking powder",
         "4 tbsp milk",
         "175g soft butter",
@@ -37,25 +37,25 @@
         "50g walnut, finely chopped",
         "oil, for greasing"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 180C/160C fan/gas 4. Dissolve the baking powder in the milk. Beat the butter and sugar until pale and creamy, then mix in the oats, flour, raisins, walnuts and milk to make a stiff dough.",
         "Tip the dough onto lightly floured surface and roll out until about 1cm thick. Cut into circles with a 5cm pastry cutter, place on an oiled baking sheet, then bake for 15 mins until lightly golden. Leave to cool, then serve with cheese. Can be baked up to 2 days ahead and kept in an airtight container until serving."
       ]
     },
     {
       "id": 3,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-601478_10-1b7e008.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Coconut ice squares",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-601478_10-1b7e008.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Coconut ice squares",
       "url": "https://www.bbcgoodfood.com/recipes/2799/coconut-ice-squares",
-      "Description": "This recipe was re-tested and updated on 05 April 2011. It now uses 250g of sweetened condensed milk and works beautifully.",
-      "Author": "Lesley Waters",
-      "Ingredients": [
+      "description": "This recipe was re-tested and updated on 05 April 2011. It now uses 250g of sweetened condensed milk and works beautifully.",
+      "author": "Lesley Waters",
+      "ingredients": [
         "250g sweetened condensed milk",
         "250g icing sugar, sifted, plus extra for dusting",
         "200g dessicated coconut",
         "pink edible food colouring, optional"
       ],
-      "Method": [
+      "instructions": [
         "Using a wooden spoon, mix together the condensed milk and icing sugar in a large bowl. It will get very stiff. Work the coconut into the mix until it\u2019s well combined \u2013 use your hands, if you like.",
         "Split the mix into two and knead a very small amount of food colouring into one half. Dust a board with icing sugar, then shape each half into a smooth rectangle and place one on top of the other. Roll with a rolling pin, re-shaping with your hands every couple of rolls, until you have a rectangle of two-tone coconut ice about 3cm thick.",
         "Transfer to a plate or board and leave uncovered for at least 3 hrs or ideally overnight to set. Cut into squares with a sharp knife and pack into bags or boxes. These will keep for up to a month at least, if stored in an airtight container."
@@ -63,12 +63,12 @@
     },
     {
       "id": 4,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/jaffa-2c0dff8.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Giant jaffa orange cake",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/jaffa-2c0dff8.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Giant jaffa orange cake",
       "Source": "https://www.bbcgoodfood.com/recipes/giant-jaffa-orange-cake",
-      "Description": "Give the classic flavour combo of chocolate orange even more wow factor in this cake with zingy jelly and luxurious chocolate ganache",
-      "Author": "Cassie Best",
-      "Ingredients": [
+      "description": "Give the classic flavour combo of chocolate orange even more wow factor in this cake with zingy jelly and luxurious chocolate ganache",
+      "author": "Cassie Best",
+      "ingredients": [
         "250g pack butter, softened, plus extra for greasing",
         "300g golden caster sugar",
         "4 large eggs",
@@ -85,7 +85,7 @@
         "2 tbsp apricot jam",
         "zest 1 orange"
       ],
-      "Method": [
+      "instructions": [
         "First make the jelly. Grease a 20cm round cake tin and line with cling film (you can use the 23cm tin that you will bake the cake in, but you\u2019ll have to make this the day before so that you can remove it before making the cake). Remove the zest from 4 of the oranges and set aside for the cake. Tip the orange juice and sugar into a saucepan and gently heat to dissolve the sugar. Meanwhile, soak the gelatine leaves in cold water for a few mins until soft. Remove the gelatine from the water, squeeze out any excess and add to the warm orange juice, stir until the gelatine has dissolved. Pour the liquid into the lined cake tin and chill for at least 4 hrs or preferably overnight.",
         "Heat oven to 160C/140C fan/gas 3 and line a 23cm round cake tin with baking parchment. Tip all the cake ingredients into a large mixing bowl and combine with an electric hand whisk until smooth. Spoon into the tin and smooth over the surface. Bake in the centre of the oven for 55 mins, or until a skewer inserted comes out clean. Cool in the tin for 15 mins, then invert onto a wire rack and leave to cool completely.",
         "Now make the ganache. Heat the cream in a small pan until hot. Put the chocolate in a small bowl and pour over the cream, leave for 10 mins, then mix well \u2013 you should be left with a smooth chocolate sauce. Leave at room temperature until the ganache cools and thickens a little (you can put it in the fridge to speed this up, but keep an eye on it, as it will set quickly).",
@@ -94,12 +94,12 @@
     },
     {
       "id": 5,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-8149_10-c2dda0b.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Guinness pudding with Whisky cream",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-8149_10-c2dda0b.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Guinness pudding with Whisky cream",
       "Source": "https://www.bbcgoodfood.com/recipes/4857/guinness-pudding-with-whisky-cream",
-      "Description": "Soaking the fruit in Guinness really plumps it up and gives a rich, dark pudding without the bitterness of brandy or rum",
-      "Author": "Jane Hornby",
-      "Ingredients": [
+      "description": "Soaking the fruit in Guinness really plumps it up and gives a rich, dark pudding without the bitterness of brandy or rum",
+      "author": "Jane Hornby",
+      "ingredients": [
         "140g raisin",
         "140g sultana",
         "140g currant",
@@ -119,7 +119,7 @@
         "\u00bd tsp nutmeg",
         "2 eggs, beaten"
       ],
-      "Method": [
+      "instructions": [
         "Mix the dried fruit and apple, then add the Guinness, orange and lemon zests and stir. Cover and leave overnight to soak. Butter a 1.25 litre/2 pint pudding basin, then spoon in 2 tbsp dark muscovado sugar. Turn the bowl at an angle, jiggling the sugar around as you go to coat the inside of the bowl.",
         "Mix the remaining dry ingredients in a large bowl. Grate the butter, then add to the bowl along with the eggs and fruit, and stir well. Spoon into the basin and level the top.",
         "Take a sheet of foil about 30cm long, cover with a same-size sheet of greaseproof paper and butter the paper. Fold a 3cm pleat in the",
@@ -128,12 +128,12 @@
     },
     {
       "id": 6,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1285451_7-a9abc60.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Eccles cake",
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1285451_7-a9abc60.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Eccles cake",
       "Source": "https://www.bbcgoodfood.com/recipes/1853650/eccles-cake",
-      "Description": "A new take on the traditional pastry, this cake will go down well on any occasion",
-      "Author": "Sarah Cook",
-      "Ingredients": [
+      "description": "A new take on the traditional pastry, this cake will go down well on any occasion",
+      "author": "Sarah Cook",
+      "ingredients": [
         "250g pack butter, softened, plus extra for greasing",
         "250g soft light brown sugar",
         "2 tsp vanilla extract",
@@ -155,7 +155,7 @@
         "zest and juice 1 lemon",
         "a few sugar cubes, roughly crushed"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 160C/140C fan/gas 3. Grease and line a deep 20cm cake tin with baking parchment. Mix together the filling ingredients and set aside.",
         "Put butter, sugar and vanilla in a bowl and whisk until pale. Beat in the eggs, then fold in the flours, buttermilk and apples. Spoon half the mixture into the tin. Scatter over filling, leaving a 2.5cm clear border all around the edge. Spoon remaining mixture on top, starting by dolloping round the edges, then moving into the middle. Bake for 1 hr 25 mins or until a skewer poked in comes out clean. Cool in the tin.",
         "Mix the icing sugar with enough lemon juice to make a runny-ish icing. Remove cake from the tin, drizzle over the icing, then scatter with crushed sugar cubes and lemon zest."
@@ -163,12 +163,12 @@
     },
     {
       "id": 7,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/lime-semifreddo-cheesecake-8cc4d6f.jpg?quality=90&resize=556,505",
-      "Name": "Lime semifreddo cheesecake",
-      "Source": "https://www.bbcgoodfood.com/recipes/lime-semifreddo-cheesecake",
-      "Description": "Mine didn\u2019t make the ice cream consistency and we found it had no sweetness. For me this just didn\u2019t work unfortunately. We used dried cranberries which also added to the fail.",
-      "Author": "Justine Pattison",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/lime-semifreddo-cheesecake-8cc4d6f.jpg?quality=90&resize=556,505",
+      "name": "Lime semifreddo cheesecake",
+      "source": "https://www.bbcgoodfood.com/recipes/lime-semifreddo-cheesecake",
+      "description": "Mine didn\u2019t make the ice cream consistency and we found it had no sweetness. For me this just didn\u2019t work unfortunately. We used dried cranberries which also added to the fail.",
+      "author": "Justine Pattison",
+      "ingredients": [
         "140g digestive biscuits, roughly broken",
         "75g butter, melted",
         "300g condensed milk",
@@ -180,7 +180,7 @@
         "100g golden caster sugar",
         "1 tbsp ground arrowroot or cornflour"
       ],
-      "Method": [
+      "instructions": [
         "Line a 900g loaf tin with a large piece of foil. Press down well into the base and sides of the tin, and leave plenty overhanging the edges. Put the biscuits in a freezer bag and bash to crumbs with a rolling pin. Mix with the melted butter and tip the crumbs into the prepared tin \u2013 press firmly into the base to create an even layer. Chill while the filling is made.",
         "Use an electric whisk on a medium setting to beat the condensed milk, cheese and cream together until smooth and thickened \u2013 this will take around 2 mins. Add the grated zest and juice, and beat slowly until the cheese mixture forms soft peaks.",
         "Spoon the lime mixture over the biscuit base. Cover lightly with the overhanging foil and seal firmly to keep out as much air as possible. Wrap in a second layer of foil, pop into a large freezer bag and freeze overnight.",
@@ -190,12 +190,12 @@
     },
     {
       "id": 8,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-444641_12-4704a74.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Raspberry & coconut trifle cake",
-      "Source": "https://www.bbcgoodfood.com/recipes/8245/raspberry-and-coconut-trifle-cake",
-      "Description": "This towering beauty will make the perfect sweet centrepiece for a buffet,\nor a lighter option if you\u2019re not into Christmas pudding",
-      "Author": "Jane Hornby",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-444641_12-4704a74.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Raspberry & coconut trifle cake",
+      "source": "https://www.bbcgoodfood.com/recipes/8245/raspberry-and-coconut-trifle-cake",
+      "description": "This towering beauty will make the perfect sweet centrepiece for a buffet,\nor a lighter option if you\u2019re not into Christmas pudding",
+      "author": "Jane Hornby",
+      "ingredients": [
         "200g butter, softened, plus extra for greasing",
         "50g unsweetened desiccated coconut, soaked in water for 1 hr then squeezed dry",
         "200g golden caster sugar",
@@ -214,7 +214,7 @@
         "142ml pot double cream",
         "fresh coconut, shredded, for decoration (optional)"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 180C/fan 160C/gas 4. Butter and line a deep 20cm loose-bottom cake tin. Beat all the cake ingredients together until smooth, pour into the tin, then smooth the top. Bake for 40-45 mins until golden and risen. Cool completely on a rack; once cold, put into the fridge. Meanwhile, prepare the custard \u2013 whisk the cornflour and 1 tbsp icing sugar into the remaining coconut cream until smooth. Bring the custard to the boil, then whisk in the coconut mix. Keep whisking until it\u2019s boiling and fairly thick. Tip into a bowl, cover with cling film straight away, then cool.",
         "Mix the Malibu, lime zest and juice and 2 tbsp icing sugar. Trim off the top of the cake if it\u2019s domed, then cut into three horizontally using a bread knife or serrated knife.",
         "Line the cleaned cake tin with plenty of cling film (a little oil helps it to stick), then put a circle of cake back in the bottom. Sprinkle with some of the Malibu mix. Crush 100g of the raspberries and mix well into the jam, then fold in 100g whole raspberries. Spoon onto the sponge in the tin but don\u2019t go right to the edges.",
@@ -224,12 +224,12 @@
     },
     {
       "id": 9,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-orange-cheesecake-8a0cc9c.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Chocolate orange cheesecake",
-      "Source": "https://www.bbcgoodfood.com/recipes/chocolate-orange-cheesecake",
-      "Description": "Very poor. Made exactly as recipe (used Solerno liqueur). Base was nondescript. Cheesecake itself was watery and lacking flavour with an unpleasant loose grainy texture. Topping becomes hard and cracks when sliced.\nNigella's key lime cheesecake uses the same method and is divine. I'd tweak that recipe to use orange if I wanted an orange cheesecake again.",
-      "Author": "Justine Pattison",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-orange-cheesecake-8a0cc9c.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Chocolate orange cheesecake",
+      "source": "https://www.bbcgoodfood.com/recipes/chocolate-orange-cheesecake",
+      "description": "Very poor. Made exactly as recipe (used Solerno liqueur). Base was nondescript. Cheesecake itself was watery and lacking flavour with an unpleasant loose grainy texture. Topping becomes hard and cracks when sliced.\nNigella's key lime cheesecake uses the same instructions and is divine. I'd tweak that recipe to use orange if I wanted an orange cheesecake again.",
+      "author": "Justine Pattison",
+      "ingredients": [
         "200g dark chocolate digestivebiscuits, roughly broken",
         "75g butter, melted, plus extra for greasing",
         "4 large eggs",
@@ -242,7 +242,7 @@
         "50g orange milk chocolate, grated",
         "50g almond milk chocolate, grated"
       ],
-      "Method": [
+      "instructions": [
         "Lightly grease and line a 20cm springform cake tin. To make the base, put the biscuits and butter in a food processor, pulse into fine crumbs, then tip into the tin. Spread evenly over the base and press down firmly with the back of a spoon. Put the tin in the freezer and leave to set for 30 mins.",
         "Put a large piece of foil (extra-wide foil if possible) on the work surface, or criss-cross two pieces of small foil. Place the cake tin in the centre of the foil and bring up the sides to create a foil bowl around the cheesecake. Place in a medium-sized roasting tin.",
         "Heat oven to 180C/160C fan/gas 4. To make the filling, put the eggs and egg yolks in a food processor and blitz until well combined. Add the cheese, cream, sugar, orange zest and orange liqueur to the food processor and pulse until only just combined. Pour the cheesecake filling gently onto the chilled base.",
@@ -253,12 +253,12 @@
     },
     {
       "id": 10,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1365_13-90214b8.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Rum & coconut treacle tart",
-      "Source": "https://www.bbcgoodfood.com/recipes/1690/rum-and-coconut-treacle-tart",
-      "Description": "Add some Caribbean sunshine (and rum) to your dessert with this recipe for a delicious tart",
-      "Author": "Good Food",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1365_13-90214b8.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Rum & coconut treacle tart",
+      "source": "https://www.bbcgoodfood.com/recipes/1690/rum-and-coconut-treacle-tart",
+      "description": "Add some Caribbean sunshine (and rum) to your dessert with this recipe for a delicious tart",
+      "author": "Good Food",
+      "ingredients": [
         "200g bought shortcrust pastry",
         "85g black treacle",
         "175g golden syrup",
@@ -270,7 +270,7 @@
         "284ml carton double cream",
         "3 tbsp icing sugar"
       ],
-      "Method": [
+      "instructions": [
         "Preheat the oven to 190C/gas 5/fan 170C. Roll the pastry out to a 5 mm thickness (as thin as you can for a delicate crust). Use to line a 23cm shallow loosebottomed flan tin and leave the pastry hanging over the sides. Prick the base and chill or freeze for at least 30 minutes.",
         "In a large bowl, mix the treacle with the golden syrup, lime zest and juice, and rum. Stir in the breadcrumbs and coconut. Put the flan tin on a baking sheet. Spread the syrupy filling over the pastry base. Bake for 15 minutes, then turn the oven down to 160C/gas 3/fan 140C (to stop the mixture bubbling over) and bake for another 15 minutes, until the filling is just set and the pastry starting to brown at the edges.",
         "Meanwhile, whisk the rum, cream and icing sugar together until the mixture stands in soft peaks and the whisk leaves a trail. Transfer to a bowl, cover and chill until needed. Cool the tart slightly before trimming the pastry edges with a sharp knife. Serve warm with the rum cream."
@@ -278,12 +278,12 @@
     },
     {
       "id": 11,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-70627_11-a9640af.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Clotted cream & stem ginger ice cream",
-      "Source": "https://www.bbcgoodfood.com/recipes/47610/clotted-cream-and-stem-ginger-ice-cream",
-      "Description": "Add a zing to your ice cream with Rick Stein's spicy suggestions",
-      "Author": "Rick Stein",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-70627_11-a9640af.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Clotted cream & stem ginger ice cream",
+      "source": "https://www.bbcgoodfood.com/recipes/47610/clotted-cream-and-stem-ginger-ice-cream",
+      "description": "Add a zing to your ice cream with Rick Stein's spicy suggestions",
+      "author": "Rick Stein",
+      "ingredients": [
         "600ml full-fat milk",
         "225g tub clotted cream",
         "1 vanilla pod, slit open lengthways",
@@ -291,7 +291,7 @@
         "85g caster sugar",
         "100g stem ginger, finely chopped, plus 6 tbsp syrup from the jar"
       ],
-      "Method": [
+      "instructions": [
         "Put the milk and clotted cream into a non-stick pan. Scrape out the seeds from the vanilla pod, add pod and seeds to the milk and cream, and bring almost to the boil. Set aside for 20 mins.",
         "Cream the egg yolks and sugar together in a bowl. Bring the milk and cream back to the boil, remove the vanilla pod, then pour the mixture onto the egg yolks, stirring all the time.",
         "Strain the mixture back into the cleaned-out pan and cook over a gentle heat, stirring constantly, until the mixture has thickened and lightly coats the back of a wooden spoon. Do not let the mixture boil or it will curdle. Pour back into the bowl and leave to cool, then cover and chill overnight. The next day, churn in an ice-cream maker, stirring the stem ginger and syrup into the mixture just before freezing. If you do not have an ice cream machine, you can pour the mixture into a shallow container, cover and freeze until firm but not rock hard, then whizz in a food processor until smooth. Re-freeze and repeat the process 2-3 times more. Store in the freezer until needed."
@@ -299,12 +299,12 @@
     },
     {
       "id": 12,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1158580_11-9816522.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Cranberry & orange meringue pie",
-      "Source": "https://www.bbcgoodfood.com/recipes/2768679/cranberry-and-orange-meringue-pie",
-      "Description": "The creamy, citrus filling in this pie contrasts wonderfully with the sweet, fluffy meringue - a sure-fire showstopper",
-      "Author": "Good Food",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1158580_11-9816522.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Cranberry & orange meringue pie",
+      "source": "https://www.bbcgoodfood.com/recipes/2768679/cranberry-and-orange-meringue-pie",
+      "description": "The creamy, citrus filling in this pie contrasts wonderfully with the sweet, fluffy meringue - a sure-fire showstopper",
+      "author": "Good Food",
+      "ingredients": [
         "140g cold butter, diced",
         "250g plain flour, plus extra for dusting",
         "100g icing sugar",
@@ -320,7 +320,7 @@
         "200g golden caster sugar",
         "2 tsp cornflour"
       ],
-      "Method": [
+      "instructions": [
         "For the pastry, put the butter and flour in a food processor and whizz to fine crumbs, then pulse in the sugar. Mix the egg yolks with 2 tsp cold water and, with the blade running, pour in the liquid to bring the pastry together. If it doesn\u2019t come together, add 1-2 tsp more water until it does.",
         "Tip the pastry onto a lightly floured surface and bring together to make a flat disc, then roll out to line a 23cm loose-bottomed tart tin. Leave the pastry overhanging the tin and prick the bottom of the pastry case with a fork. Chill for 30 mins.",
         "Heat oven to 200C/180C fan/gas 6. Line the pastry case with some crumpled baking parchment, fill with baking beans, then blind-bake for 15 mins. Carefully remove the parchment and beans, and bake for a further 10 mins or until the pastry looks golden and biscuity. Remove the case from the oven and trim the edges of the pastry with a sharp knife. Can be done the day before. Lower oven to 180C/160C fan/gas 4.",
@@ -332,12 +332,12 @@
     },
     {
       "id": 13,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1158520_11-6cba88d.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Salted caramel chocolate torte",
-      "Source": "https://www.bbcgoodfood.com/recipes/896660/salted-caramel-chocolate-torte",
-      "Description": "Indulge guests at your next party with this impressive dessert. A touch of salt really sets off the caramel and dark chocolate",
-      "Author": "James Martin",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1158520_11-6cba88d.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Salted caramel chocolate torte",
+      "source": "https://www.bbcgoodfood.com/recipes/896660/salted-caramel-chocolate-torte",
+      "description": "Indulge guests at your next party with this impressive dessert. A touch of salt really sets off the caramel and dark chocolate",
+      "author": "James Martin",
+      "ingredients": [
         "175g digestive biscuits",
         "85g butter, melted",
         "397g can caramel(we used Carnation caramel)",
@@ -349,7 +349,7 @@
         "salted caramelchocolates, to decorate (find them in Waitrose, Sainsbury\u2019s or Marks & Spencer)",
         "single cream, to serve (optional)"
       ],
-      "Method": [
+      "instructions": [
         "Line the base of a deep, round 20cm loose-bottomed cake tin with a circle of baking parchment. Line the sides with one long strip that comes just above the sides of the tin \u2013 staple or paper clip where the strip overlaps to hold it in place.",
         "Crush the biscuits in a plastic bag or bowl with the end of a rolling pin. Stir into the melted butter, then evenly press into the bottom of the tin. Chill for 10 mins.",
         "Reserve 2 tbsp of the caramel. Stir the sea salt into the remainder and spoon into the centre of the biscuit base. Gently spread so the base is evenly covered but a visible 1-2cm border of biscuit remains around the edge. Chill for 20 mins while you make the chocolate layer.",
@@ -360,12 +360,12 @@
     },
     {
       "id": 14,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-816531_11-2939ea0.jpg?quality=90&webp=true&resize=440,400",
-      "Name": "Pistachio & cranberry cookies",
-      "Source": "https://www.bbcgoodfood.com/recipes/1759655/pistachio-and-cranberry-cookies",
-      "Description": "These crunchy, fruit & nut biscuits are sure to be a family favourite - make ahead and freeze, or wrap up for the perfect homemade gift",
-      "Author": "Good Food",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-816531_11-2939ea0.jpg?quality=90&webp=true&resize=440,400",
+      "name": "Pistachio & cranberry cookies",
+      "source": "https://www.bbcgoodfood.com/recipes/1759655/pistachio-and-cranberry-cookies",
+      "description": "These crunchy, fruit & nut biscuits are sure to be a family favourite - make ahead and freeze, or wrap up for the perfect homemade gift",
+      "author": "Good Food",
+      "ingredients": [
         "175g butter, softened",
         "85g golden caster sugar",
         "\u00bd tsp vanilla extract",
@@ -373,19 +373,19 @@
         "75g pistachios",
         "75g dried cranberries"
       ],
-      "Method": [
+      "instructions": [
         "Mix the butter, sugar and vanilla extract with a wooden spoon. stir in the flour, then tip in the pistachios and cranberries \u2013 you might need to get your hands in at this stage to bring the mix together as a dough. Halve the dough and shape each half into a log about 5cm across. Wrap in cling film, then chill for 1 hr or freeze for up to 3 months.",
         "Heat oven to 180C/160C fan/gas 4. slice the logs into 1cm-thick rounds, place on a baking tray lined with baking parchment and bake for 12-15 mins. Cool completely on the tray."
       ]
     },
     {
       "id": 15,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spiced-stollen-plait-3ccba77.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Spiced stollen plait",
-      "Source": "https://www.bbcgoodfood.com/recipes/spiced-stollen-plait",
-      "Description": "This pretty twist on a classic German Christmas bake is lightly spiced, filled with mixed dried fruit and marzipan, then dusted with icing sugar",
-      "Author": "Cassie Best",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spiced-stollen-plait-3ccba77.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Spiced stollen plait",
+      "source": "https://www.bbcgoodfood.com/recipes/spiced-stollen-plait",
+      "description": "This pretty twist on a classic German Christmas bake is lightly spiced, filled with mixed dried fruit and marzipan, then dusted with icing sugar",
+      "author": "Cassie Best",
+      "ingredients": [
         "140g mixed dried fruit(we used raisins, sultanas and dried cherries)",
         "4 tbsp brandy, dark rum or orange juice",
         "225ml full-fat milk",
@@ -404,7 +404,7 @@
         "handful flaked almonds",
         "icing sugar, for dusting"
       ],
-      "Method": [
+      "instructions": [
         "Put the dried fruit in a bowl with the brandy, rum or orange juice, cover with cling film and microwave on High for 1 min. Set aside to cool while you make the dough.",
         "Pour the milk and honey into a pan and heat until they just come to the boil, then remove from the heat, add the butter and set aside to cool a little, swirling now and then to melt the butter. Meanwhile, mix the flour, yeast, spices and \u00bd tsp salt in a large bowl.",
         "When the milk has cooled to body temperature, pour into the flour bowl. Add the egg and zest, and mix together with a spoon, then with your hands, until the mixture comes together as a dough. If it\u2019s a little sticky, add a little extra flour.",
@@ -416,12 +416,12 @@
     },
     {
       "id": 16,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-peppermint-shooting-star-cake-4d34c97.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Chocolate peppermint shooting star cake",
-      "Source": "https://www.bbcgoodfood.com/recipes/chocolate-peppermint-shooting-star-cake",
-      "Description": "A real festive showstopper, this extra-special bundt cake comes with a chocolate star centre - top with silver-coated Malteasers",
-      "Author": "Cassie Best",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-peppermint-shooting-star-cake-4d34c97.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Chocolate peppermint shooting star cake",
+      "source": "https://www.bbcgoodfood.com/recipes/chocolate-peppermint-shooting-star-cake",
+      "description": "A real festive showstopper, this extra-special bundt cake comes with a chocolate star centre - top with silver-coated Malteasers",
+      "author": "Cassie Best",
+      "ingredients": [
         "225g butter, plus plenty for greasing",
         "200g self-raising flour, plus a little for dusting",
         "100g cocoa powder",
@@ -443,7 +443,7 @@
         "2\u00bd l bundt tin",
         "6cm star cutter"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 180C/160C fan/gas 4 and boil the kettle. First, make the chocolate cake. Liberally grease the bundt tin with butter, then dust with flour and shake out the excess. Put the cocoa in a bowl with a pinch of salt, cover with 150ml hot water from the kettle, mix until smooth, then set aside to cool. Put the butter and sugar in a bowl and whisk until light and fluffy. Add the eggs, one at a time, mixing well between each addition. Sift in the flour and baking powder and fold everything together. Stir the soured cream into the cocoa mixture, then add to the other bowl and mix until just combined, then scrape into the prepared tin. Bake for 35 mins until a skewer comes out clean. Leave to cool for 15 mins in the tin, then turn out onto a wire rack to cool completely.",
         "When the cake is cool, transfer to a baking sheet lined with baking parchment, and make space for the cake and tray in your freezer. Slice the cake into pieces roughly the thickness of your star cutter, then pull each piece out a little, so there is space around each one. Pop the cake in the freezer for 2 hrs, or overnight.",
         "When the cake is firmly frozen, lay each slice on its side, keeping them in the same circular pattern, and cut out a star, using the cutter, from the middle of each piece. Leftover cake can be kept in the freezer for up to 2 months, ready for making a trifle. Return the cut-out stars to the freezer.",
@@ -453,12 +453,12 @@
     },
     {
       "id": 17,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/crunchy-peanut-tofee-bonbons-b036ccc.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Crunchy peanut & toffee bonbons",
-      "Source": "https://www.bbcgoodfood.com/recipes/crunchy-peanut-toffee-bonbons",
-      "Description": "Serve these gorgeous peanut butter and milk chocolate balls as a party buffet sweet treat, or wrap up as an edible gift",
-      "Author": "Jennifer Joyce",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/crunchy-peanut-tofee-bonbons-b036ccc.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Crunchy peanut & toffee bonbons",
+      "source": "https://www.bbcgoodfood.com/recipes/crunchy-peanut-toffee-bonbons",
+      "description": "Serve these gorgeous peanut butter and milk chocolate balls as a party buffet sweet treat, or wrap up as an edible gift",
+      "author": "Jennifer Joyce",
+      "ingredients": [
         "100g smooth peanut butter",
         "50g softened butter",
         "140g icing sugar",
@@ -466,7 +466,7 @@
         "100g milk chocolate, chopped",
         "100g salted toasted peanuts, chopped"
       ],
-      "Method": [
+      "instructions": [
         "Put the peanut butter, butter and sugar in a food processor. Pulse until it comes together. Add the toffee and pulse again. Remove and, using the palms of your hands, roll mixture into small balls. Place on a tray. Chill for 30 mins.",
         "Melt the chocolate in a heatproof bowl in the microwave on High for 1 min or set over a pan of boiling water (make sure the bowl doesn't touch the water). Using a fork, dip the balls, one at a time, until half covered in chocolate. Roll in the peanuts. Put on a tray lined with baking parchment and leave to harden (about 2 hrs).",
         "Store between layers of baking parchment in a covered container and keep chilled. Will keep for 1 week in an airtight container."
@@ -474,12 +474,12 @@
     },
     {
       "id": 18,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/toasted-malt-loaf-with-pressed-ham-terrine-6456cf2.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Toasted malt loaf with pressed ham terrine & spiced apple compote",
-      "Source": "https://www.bbcgoodfood.com/recipes/toasted-malt-loaf-pressed-ham-terrine-spiced-apple-compote",
-      "Description": "This sophisticated dish makes an elegant dinner party starter, balancing the sweetness of the apple and malt loaf with a tangy vinaigrette",
-      "Author": "James Martin",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/toasted-malt-loaf-with-pressed-ham-terrine-6456cf2.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Toasted malt loaf with pressed ham terrine & spiced apple compote",
+      "source": "https://www.bbcgoodfood.com/recipes/toasted-malt-loaf-pressed-ham-terrine-spiced-apple-compote",
+      "description": "This sophisticated dish makes an elegant dinner party starter, balancing the sweetness of the apple and malt loaf with a tangy vinaigrette",
+      "author": "James Martin",
+      "ingredients": [
         "25g butter",
         "1 shop-bought malt loaf(about 250g), cut into bite-sized pieces",
         "1kg hamhocks",
@@ -500,7 +500,7 @@
         "1 tbsp cider vinegar",
         "2 tbsp olive oil"
       ],
-      "Method": [
+      "instructions": [
         "To make the terrine, put the ham hocks in a large saucepan with the onion, bay leaves, cinnamon stick and peppercorns. Cover with water and bring to the boil, then reduce the heat and cook gently for 2 hrs. Once the meat is cooked, take the pan off the heat and leave to one side to cool.",
         "When cold, remove the ham hocks from the pan, then strain 300ml of the cooking liquid through a fine sieve and pour it into a saucepan. Put the gelatine in a bowl of cold water to soften for around 5 mins, then drain. Heat the cooking liquid until simmering but not boiling, then remove from the heat and add the softened gelatine leaves. Stir well and leave to cool.",
         "Take the ham from the bones and chop into small pieces. Line four x 200ml ramekins with cling film and add a third of the cooked ham to each to form the base layer. Pour over a little of the gelatine liquid, then sprinkle in a layer of parsley. Next, add another third of the ham and some more gelatine liquid. The next layer should be the tarragon, followed by the remaining ham and the rest of the gelatine liquid. Once all the layers are complete, cover the surface of each terrine with cling film, then a layer of foil. Put in the fridge with some weights on top \u2013 I put another ramekin on top of each terrine with an onion in it to weigh it down. Leave to set and compress in the fridge for about 2 hrs.",
@@ -512,12 +512,12 @@
     },
     {
       "id": 19,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/mississippi-mud-pie-4d34c97.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Mississippi mud pie",
-      "Source": "https://www.bbcgoodfood.com/recipes/mississippi-mud-pie",
-      "Description": "This indulgent American-style dinner party dessert has layers of Oreo biscuits, brownie, chocolate custard and whipped cream",
-      "Author": "Katy Greenwood",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/mississippi-mud-pie-4d34c97.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Mississippi mud pie",
+      "source": "https://www.bbcgoodfood.com/recipes/mississippi-mud-pie",
+      "description": "This indulgent American-style dinner party dessert has layers of Oreo biscuits, brownie, chocolate custard and whipped cream",
+      "author": "Katy Greenwood",
+      "ingredients": [
         "2 x 154g Oreo biscuits, centres scraped out",
         "100g butter, melted",
         "100g butter",
@@ -531,7 +531,7 @@
         "3 gelatinesheets",
         "300ml double cream"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 180C/160C fan/gas 4. In a food processor, whizz the biscuits to a fine crumb. Pour in the melted butter and pulse briefly to mix well. Spoon into a 24cm pie dish and press into the base and up the sides. Bake in the oven for 10 mins to firm up.",
         "To make the brownie layer, melt the butter and chocolate together in a bowl set over a pan of simmering water (making sure that the bottom doesn\u2019t touch the water), or in short bursts in the microwave.",
         "In a separate bowl, whisk the eggs until pale, fluffy and doubled in size, then add the sugar and whisk until thickened. Fold in the chocolate mixture, then sieve in the flour and fold in.",
@@ -543,12 +543,12 @@
     },
     {
       "id": 20,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/alaskan-yule-log-c14357a.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Alaskan yule log",
-      "Source": "https://www.bbcgoodfood.com/recipes/alaskan-yule-log",
-      "Description": "Arctic roll meets baked Alaska in this ice cream filled chocolate log topped with meringue - an impressive dessert to make ahead for a dinner party",
-      "Author": "Justine Pattison",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/alaskan-yule-log-c14357a.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Alaskan yule log",
+      "source": "https://www.bbcgoodfood.com/recipes/alaskan-yule-log",
+      "description": "Arctic roll meets baked Alaska in this ice cream filled chocolate log topped with meringue - an impressive dessert to make ahead for a dinner party",
+      "author": "Justine Pattison",
+      "ingredients": [
         "softened butter, for greasing",
         "6 large eggs, separated",
         "140g golden caster sugar",
@@ -558,7 +558,7 @@
         "4 large egg whites",
         "\u00bd tsp vanilla extract"
       ],
-      "Method": [
+      "instructions": [
         "Put your freezer on the fast-freeze setting, or clear some space in the coldest part of the freezer. Heat oven to 180C/160C fan/gas 4. Line a 23 x 33cm Swiss roll tin with baking parchment, grease with a little butter and set aside.",
         "First, make the sponge. Put the egg yolks and sugar in a large bowl and whisk with an electric whisk until thick and creamy. Sift the cocoa powder over the egg mixture and whisk in thoroughly. Wash and dry the beaters. In a clean bowl, whisk the egg whites until stiff but not dry. Fold a third of the egg whites into the cocoa mixture, then gently fold in the rest until evenly distributed.",
         "Pour into the prepared tin and spread gently with a spatula. Bake in the centre of the oven for 25 mins or until well risen and just beginning to shrink away from the sides of the tin. Remove from the oven, loosen the edges with a round-bladed knife and leave to cool in the tin.",
@@ -571,12 +571,12 @@
     },
     {
       "id": 21,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-441559_11-6e8c3dd.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Chestnut & cranberry roll",
-      "Source": "https://www.bbcgoodfood.com/recipes/4968/chestnut-and-cranberry-roll",
-      "Description": "Forget fiddly stuffing balls, this clever roll tastes delicious, plus its practical shape makes it ultra-simple to slice",
-      "Author": "Jane Hornby",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-441559_11-6e8c3dd.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Chestnut & cranberry roll",
+      "source": "https://www.bbcgoodfood.com/recipes/4968/chestnut-and-cranberry-roll",
+      "description": "Forget fiddly stuffing balls, this clever roll tastes delicious, plus its practical shape makes it ultra-simple to slice",
+      "author": "Jane Hornby",
+      "ingredients": [
         "1 tbsp olive oil",
         "1 onion, finely chopped",
         "2 Bramley apples, approx 140/5oz each, peeled",
@@ -591,7 +591,7 @@
         "24 rashers streaky bacon",
         "butter, for greasing"
       ],
-      "Method": [
+      "instructions": [
         "Heat the oil in a large frying pan, then gently fry the onion for 5 mins until softened. Finely chop the apples either by hand or in a food processor.",
         "Squeeze the sausagemeat from the sausages into a large bowl, then add all the other ingredients, except the cranberries and streaky bacon. Season generously, then get your hands in and mix well. Weigh out 450g of the stuffing and mix a handful of the cranberries into it. Use to stuff the neck of the turkey (see 'Goes well with').",
         "To assemble, butter and season a large sheet of foil. Stretch out the bacon rashers slightly with the back of a kitchen knife, then overlap 12 rashers on the foil. Spoon half of the stuffing mix evenly over the bacon, leaving a border of about 3cm. Scatter with half the cranberries, then pat them in. Tuck the long edges of the bacon over the stuffing; then, using the foil to help, roll the stuffing up into a log shape. Repeat to make a second roll.",
@@ -600,12 +600,12 @@
     },
     {
       "id": 22,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4296_11-c513b12.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Hot toddy fruitcake",
-      "Source": "https://www.bbcgoodfood.com/recipes/2988/hot-toddy-fruitcake",
-      "Description": "This fabulous Christmas cake can be made and decorated in four very different ways. Just choose your\nfavourite",
-      "Author": "Jane Hornby",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-4296_11-c513b12.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Hot toddy fruitcake",
+      "source": "https://www.bbcgoodfood.com/recipes/2988/hot-toddy-fruitcake",
+      "description": "This fabulous Christmas cake can be made and decorated in four very different ways. Just choose your\nfavourite",
+      "author": "Jane Hornby",
+      "ingredients": [
         "200ml hot, strong black tea (use any type)",
         "3 tbsp whisky",
         "3 tbsp good-quality orange marmalade, thin or medium shred",
@@ -623,7 +623,7 @@
         "50ml hot black tea",
         "1 tbsp whisky(or use orange juice if you prefer)"
       ],
-      "Method": [
+      "instructions": [
         "Mix the hot tea, whisky and marmalade in a large bowl until the marmalade melts. Stir in all of the dried fruit, peel and cherries, then cover and leave to soak overnight.",
         "Next day, heat oven to 160C/fan 140C/gas 3 and grease and double-line a 20cm round, deep cake tin with non-stick baking paper. Using electric beaters, cream together the butter and sugar until fluffy. Add the eggs a little at a time, beating well after each addition, then fold in the flour and spices, followed by the lemon zest and soaked fruit. Add any liquid that hasn\u2019t been absorbed by the fruit, too. Spoon into the prepared tin, level the top, then bake for 1\u00bd hrs. Turn the oven down to 140C/fan 120C/gas 1 and bake for another 1\u00bd hrs or until a skewer inserted into the centre of the cake comes out clean. Cool on a wire rack in the tin.",
         "While the cake is still warm, use the skewer to pepper the cake with holes, poking it all the way down. Dissolve the sugar in the tea, add the whisky or orange juice, then spoon over the surface. If you\u2019re making the cake ahead of time, feed it with a fresh swig of hot toddy every week, but take care not to make the cake soggy. Can be kept for a month well-wrapped in an airtight container in a cool, dry place. If short on time, the cake can be made the same day that you decorate it."
@@ -631,12 +631,12 @@
     },
     {
       "id": 23,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1165471_11-7a12888.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Rocky robin cake",
-      "Source": "https://www.bbcgoodfood.com/recipes/889664/rocky-robin-cake",
-      "Description": "Get creative with your Christmas cake icing - these robins are super cute and really easy to model",
-      "Author": "Sarah Cook",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1165471_11-7a12888.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Rocky robin cake",
+      "source": "https://www.bbcgoodfood.com/recipes/889664/rocky-robin-cake",
+      "description": "Get creative with your Christmas cake icing - these robins are super cute and really easy to model",
+      "author": "Sarah Cook",
+      "ingredients": [
         "1 x 20cm round or 18cm square Christmas cake(see 'Goes well with', below)",
         "4 tbsp raspberryor apricot jam, warmed and sieved",
         "icing sugar, for dusting",
@@ -646,7 +646,7 @@
         "9 whole cloves",
         "black writing icing"
       ],
-      "Method": [
+      "instructions": [
         "Sit the cake on a large board or flat serving plate. Brush a little of the jam over the cake. Dust a clean surface with a little icing sugar, then roll out the marzipan until big enough to cover the cake (use string to help you measure). Carefully lift the marzipan onto the cake, pat down to cover smoothly and trim any excess off the bottom. Brush all over again with more jam.",
         "Knead 1kg white icing until smooth, then roll out on an icing sugar-dusted surface until a little bigger than the marzipan size. Carefully lift onto the cake, partially pat down the sides to smooth and stick, allow the rest to stick in folds, or tease into shape with your fingers (step A). Trim any ragged edges.",
         "For the robins, roll 3 walnut-size balls from some of the remaining white icing. Halve the icing that is left. Knead brown colouring into 1 half to give a rich colour, wrap well \u2013 this will be the branch. Divide the other half into 3 pieces, and colour 1 red, 1 pale brown and 1 green.",
@@ -657,12 +657,12 @@
     },
     {
       "id": 24,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gingerbread-pancakes-e5319b4.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Gingerbread pancakes",
-      "Source": "https://www.bbcgoodfood.com/recipes/gingerbread-pancakes",
-      "Description": "Hi I would like to make these Christmas morning but wondered if you can freeze them then heat them through on the day? Thanks so much in advance.",
-      "Author": "Chelsie Collins",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/gingerbread-pancakes-e5319b4.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Gingerbread pancakes",
+      "source": "https://www.bbcgoodfood.com/recipes/gingerbread-pancakes",
+      "description": "Hi I would like to make these Christmas morning but wondered if you can freeze them then heat them through on the day? Thanks so much in advance.",
+      "author": "Chelsie Collins",
+      "ingredients": [
         "150g self-raising flour",
         "\u00bd tsp baking powder",
         "1 tsp ground ginger",
@@ -675,7 +675,7 @@
         "100g pitted dates, chopped, to serve",
         "100ml cr\u00e8me fra\u00eeche, to serve"
       ],
-      "Method": [
+      "instructions": [
         "Put the flour, baking powder, ginger, cinnamon and sugar in a large bowl with a pinch of salt. Combine the egg, maple syrup and milk in a jug. Gradually add to the dry ingredients, whisking until a smooth, silky batter forms.",
         "Heat a drizzle of oil in a large, non-stick pan over a medium heat and ladle 2-3 small rounds into the pan. Cook for 1-2 mins until bubbles start to appear on the surface, then flip over and cook for a further 1 min until fluffy. Do this in batches until you have 10 pancakes.",
         "Serve in a stack, with extra maple syrup, a blob of cr\u00e8me fra\u00eeche and dates scattered over."
@@ -683,12 +683,12 @@
     },
     {
       "id": 25,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1158535_11-b39d76a.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Brandy butter ice cream",
-      "Source": "https://www.bbcgoodfood.com/recipes/2760965/brandy-butter-ice-cream",
-      "Description": "Throw a fresh spin on a favourite, festive sauce by serving as a sweet and creamy frozen dessert or accompaniment",
-      "Author": "Good Food",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1158535_11-b39d76a.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Brandy butter ice cream",
+      "source": "https://www.bbcgoodfood.com/recipes/2760965/brandy-butter-ice-cream",
+      "description": "Throw a fresh spin on a favourite, festive sauce by serving as a sweet and creamy frozen dessert or accompaniment",
+      "author": "Good Food",
+      "ingredients": [
         "140g butter",
         "100ml brandy",
         "300ml milk",
@@ -696,7 +696,7 @@
         "175g light soft brown sugar",
         "150ml double cream"
       ],
-      "Method": [
+      "instructions": [
         "Heat the butter in a small pan until just starting to take on a nutty brown colour \u2013 remove from the heat straight away as it will continue to colour. Stir in the brandy, then leave to cool.",
         "Heat the milk in a saucepan but don\u2019t let it boil. Whisk the egg yolks and sugar in a bowl until pale. Pour over the hot milk, whisking continuously, then return to the saucepan set over a low heat. Cook for 3-4 mins, stirring the whole time with a wooden spoon, until the custard thickens enough to coat the back of your spoon. Leave to cool.",
         "Whisk the cream until it forms soft, billowy peaks. Fold in the brandy butter and the custard mixture. Churn in an ice-cream machine until set, then keep in the freezer for up to 2 months."
@@ -704,12 +704,12 @@
     },
     {
       "id": 26,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-363804_10-d0e9ef7.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Pecan toffee cake",
-      "Source": "https://www.bbcgoodfood.com/recipes/8267/pecan-toffee-cake",
-      "Description": "Indulge in this gorgeously nutty cake for dessert, then serve the leftovers as you would Christmas cake to whoever pops by",
-      "Author": "Jane Hornby",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-363804_10-d0e9ef7.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Pecan toffee cake",
+      "source": "https://www.bbcgoodfood.com/recipes/8267/pecan-toffee-cake",
+      "description": "Indulge in this gorgeously nutty cake for dessert, then serve the leftovers as you would Christmas cake to whoever pops by",
+      "author": "Jane Hornby",
+      "ingredients": [
         "300g pecanhalves",
         "140g stoned dates",
         "200g butter, softened, plus extra for greasing",
@@ -719,7 +719,7 @@
         "140g self-raising flour",
         "maple syrup, to serve"
       ],
-      "Method": [
+      "instructions": [
         "Tip 100g pecans into a processor and whizz until fine, then tip into a bowl. Put the dates into a small pan with enough water to cover, boil for 5 mins until very soft. Drain, discarding the liquid, then whizz in the processor until smooth. Leave to cool.",
         "Heat oven to 180C/fan 160C/gas 4. Butter and line the base of a 23cm cake tin. Beat the butter, sugar and spice together until lighter and creamy, then tip in the dates, ground pecans, eggs and a pinch of salt and beat briefly until smooth.",
         "Fold in the flour with a metal spoon, then spoon into the tin and level the top. Sprinkle the remaining nuts over the top (don\u2019t press them in), then bake for 40 mins or until risen and golden and a skewer comes out clean. Serve warm, with generous drizzles of maple syrup and scoops of Maple crunch ice cream (see 'goes well with')."
@@ -727,12 +727,12 @@
     },
     {
       "id": 27,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-442535_12-91ef793.jpg?quality=90&webp=true&resize=300,272",
-      "Name": "Macadamia & cranberry American cookies",
-      "Source": "https://www.bbcgoodfood.com/recipes/13387/macadamia-and-cranberry-american-cookies",
-      "Description": "These freezable biscuits are completely irresistible and make a great gift for kids to give to teachers or grandparents",
-      "Author": "Sara Buenfeld",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-442535_12-91ef793.jpg?quality=90&webp=true&resize=300,272",
+      "name": "Macadamia & cranberry American cookies",
+      "source": "https://www.bbcgoodfood.com/recipes/13387/macadamia-and-cranberry-american-cookies",
+      "description": "These freezable biscuits are completely irresistible and make a great gift for kids to give to teachers or grandparents",
+      "author": "Sara Buenfeld",
+      "ingredients": [
         "3 x 200g/7oz white chocolatebars, chopped",
         "200g butter",
         "2 eggs",
@@ -745,7 +745,7 @@
         "100g dried cranberry",
         "100g macadamia nut, chopped"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 180C/160C fan/gas 4. Melt 170g of the chocolate, then allow to cool. Beat in the butter, eggs, sugars and vanilla, preferably with an electric hand whisk, until creamy. Stir in the flour, baking powder, cinnamon and cranberries with two-thirds of the remaining chocolate and macadamias, to make a stiff dough.",
         "Using a tablespoon measure or a small ice-cream scoop, drop small mounds onto a large baking dish, spacing them well apart, then poke in the reserved chocolate, nuts and berries. Bake in batches for 12 mins until pale golden, leave to harden for 1-2 mins, then cool on a wire rack.",
         "To freeze, open-freeze the raw cookie dough scoops on baking trays; when solid, pack them into a freezer container, interleaving the layers with baking parchment. Use within 3 months. Bake from frozen for 15-20 mins."
@@ -753,12 +753,12 @@
     },
     {
       "id": 28,
-      "Image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-orange-cranberry-red-velvet-bombe-8a0dd84.jpg?quality=90&webp=true&resize=600,545",
-      "Name": "Chocolate orange & cranberry red velvet bombe",
-      "Source": "https://www.bbcgoodfood.com/recipes/chocolate-orange-cranberry-red-velvet-bombe",
-      "Description": "This stunning festive dessert makes a great alternative to Christmas pudding, with a hidden cream cheese and cranberry filling",
-      "Author": "Cassie Best",
-      "Ingredients": [
+      "image": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chocolate-orange-cranberry-red-velvet-bombe-8a0dd84.jpg?quality=90&webp=true&resize=600,545",
+      "name": "Chocolate orange & cranberry red velvet bombe",
+      "source": "https://www.bbcgoodfood.com/recipes/chocolate-orange-cranberry-red-velvet-bombe",
+      "description": "This stunning festive dessert makes a great alternative to Christmas pudding, with a hidden cream cheese and cranberry filling",
+      "author": "Cassie Best",
+      "ingredients": [
         "175g butter, very soft, plus extra for greasing",
         "200g plain flour, plus extra for dusting",
         "200g golden caster sugar",
@@ -780,7 +780,7 @@
         "50g dried cranberries, plus extra to serve",
         "sprinklesand edible glitter (optional), to decorate"
       ],
-      "Method": [
+      "instructions": [
         "Heat oven to 160C/140C fan/gas 3. Grease 2 x 16cm hemisphere cake tins, then dust with flour and shake out the excess. Stand the tins on two ramekins placed on a baking tray to hold them steady. Put the cake ingredients in a large mixing bowl, add a pinch of salt and whisk together until smooth and evenly coloured bright red. Divide the mixture between the two tins and bake for 45 mins. Remove from the oven, cool in the tins for 10 mins, then tip onto a wire rack and leave until completely cold.",
         "Meanwhile, make the chocolate-orange ganache and the filling. Pour the cream into a saucepan, add the orange zest and heat until just steaming. Put half the white chocolate in a bowl, and the dark and milk chocolates in another bowl. Pour 50ml of the hot cream over the white chocolate (strain it if the orange zest is in big strands), and the remaining cream over the dark and milk mixture. Leave the bowls for 1-2 mins, then stir until smooth and glossy. Set aside to cool for 10 mins.",
         "Put the cream cheese in a bowl and whisk lightly to loosen. Add the icing sugar and the cooled white chocolate and cream mixture, then blend until smooth. Stir through the cranberries, then chill.",
