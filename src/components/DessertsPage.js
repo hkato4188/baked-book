@@ -1,8 +1,8 @@
 import React from "react";
-import DessertContainer from "./DessertContainer";
 import { useState, useEffect } from "react";
+import DessertContainer from "./DessertContainer";
 
-function Home() {
+function Desserts() {
   const [dessertList, setDessertList] = useState([]);
   useEffect(() => {
     fetch(`http://localhost:8001/Recipes`)
@@ -17,4 +17,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Desserts;

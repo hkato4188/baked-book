@@ -1,11 +1,10 @@
+import { Switch, Route } from "react-router-dom";
 import React from "react";
-import { Switch, Route, NavLink } from "react-router-dom";
-import NavBar from "./NavBar";
-import About from "./About";
-import Home from "./Home";
-import Header from "./Header";
 import "./css/App.css";
-// import DessertContainer from "./DessertContainer"
+import Header from "./Header";
+import NavBar from "./NavBar";
+import DessertsPage from "./DessertsPage";
+import About from "./About";
 
 function App() {
   return (
@@ -17,8 +16,9 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
-        <Route exact path="/">
-          <Home />
+
+        <Route exact path="/desserts">
+          <DessertsPage />
         </Route>
       </Switch>
     </>

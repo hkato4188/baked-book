@@ -8,8 +8,8 @@ import "./css/NavBar.css";
 function NavBar() {
   return (
     <div className="nav-container">
-      <NavLink className="nav-btn nav-text" exact to="/">
-        Home
+      <NavLink className="nav-btn nav-text" exact to="/desserts">
+        Desserts
       </NavLink>
       <NavLink className="nav-btn nav-text" to="/add_dessert">
         Add Dessert
