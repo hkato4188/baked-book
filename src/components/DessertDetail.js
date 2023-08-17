@@ -1,25 +1,37 @@
-import React from "react";
-import { useParams } from "react-dom-router";
+import React, { useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
+import "./css/DessertDetail.css";
 
-function DessertDetail(props) {
-  // const params = useParams();
-  // const { Image, Name, Source, Description } = dessert;
-  // const Method = dessert.Method.map((step) => <li>{step}</li>);
-  // const Ingredients = dessert.Ingredients.map((ingredient) => (
-  //   <li>{ingredient}</li>
-  // ));
-  // console.log(params);
+function DessertDetail() {
+  const { id } = useParams();
+  const [selectedDessert, setSelectedDessert] = useState(); //this could be the fix!
+
+  useEffect(() => {
+    fetch(`http://localhost:8001/Recipes/${id}`)
+      .then((response) => response.json())
+      .then((data) => setSelectedDessert(data));
+  }, [id]);
+
+  const Method = selectedDessert.Method.map((step) => <li>{step}</li>);
+  const Ingredients = selectedDessert.Ingredients.map((ingredient) => (
+    <li>{ingredient}</li>
+  ));
+
+  if (!selectedDessert) return <h1>...Loading</h1>;
   return (
-    <div className="dessert-card">
-      Hello Details
-      {/* <img className="dessert-image" src={Image} alt={Name} />
-      <h4>{Name}</h4>
-      <h5>{`${Description.substring(0, 200)} ...`}</h5>
+    <div className="dessert-detail">
+      <img
+        className="dessert-image"
+        src={selectedDessert.Image}
+        alt={selectedDessert.Name}
+      />
+      <h4>{selectedDessert.Name}</h4>
+      <h5>{`${selectedDessert.Description.substring(0, 200)} ...`}</h5>
       <ol>{Ingredients}</ol>
       <ul>{Method}</ul>
       <button>
-        <a href={Source}>Learn More</a>
-      </button> */}
+        <a href={selectedDessert.Source}>Learn More</a>
+      </button>
     </div>
   );
 }

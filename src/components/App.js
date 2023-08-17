@@ -1,11 +1,11 @@
 import { Switch, Route } from "react-router-dom";
 import React from "react";
-import "./css/App.css";
 import Header from "./Header";
 import NavBar from "./NavBar";
-import DessertsPage from "./DessertsPage";
 import About from "./About";
-
+import DessertsPage from "./DessertsPage";
+import DessertDetail from "./DessertDetail";
+import ErrorPage from "./ErrorPage";
 function App() {
   return (
     <>
@@ -16,9 +16,14 @@ function App() {
         <Route exact path="/about">
           <About />
         </Route>
-
+        <Route exact path="/desserts/:id">
+          <DessertDetail />
+        </Route>
         <Route exact path="/desserts">
           <DessertsPage />
+        </Route>
+        <Route path="*">
+          <ErrorPage />
         </Route>
       </Switch>
     </>

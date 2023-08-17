@@ -9,7 +9,7 @@ function About() {
       <img
         className="about-bread"
         src="https://img.freepik.com/free-vector/isolated-bread-loaf-cartoon-style_1308-85000.jpg?w=1800&t=st=1692213516~exp=1692214116~hmac=f99a96aedfa04e5167c5449de456f539c89e39294de67df743710aa9d6ce3d69"
-        alt="car toon image of bread"
+        alt="bread"
       />
       <div className="about-content">
         <p className="about-paragraph">
@@ -18,7 +18,7 @@ function About() {
         </p>
         <p className="about-paragraph">
           Explore new recipes, add your own favorites, and upvote confectionary
-          contestants to see which dessert deserves the title of GOAT
+          contestants to see which dessert deserves the title of G.O.A.T.
         </p>
       </div>
     </div>

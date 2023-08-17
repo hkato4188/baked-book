@@ -8,19 +8,44 @@ import "./css/NavBar.css";
 function NavBar() {
   return (
     <div className="nav-container">
-      <NavLink className="nav-btn nav-text" exact to="/desserts">
+      <NavLink
+        activeStyle={{ backgroundColor: "#7895CB" }}
+        className="nav-btn nav-text"
+        exact
+        to="/desserts"
+      >
         Desserts
       </NavLink>
-      <NavLink className="nav-btn nav-text" to="/add_dessert">
+      <NavLink
+        activeStyle={{ backgroundColor: "#7895CB" }}
+        className="nav-btn nav-text"
+        exact
+        to="/add_dessert"
+      >
         Add Dessert
       </NavLink>
-      <NavLink className="nav-btn nav-text" to="/baked_greats">
+      <NavLink
+        activeStyle={{ backgroundColor: "#7895CB" }}
+        exact
+        className="nav-btn nav-text"
+        to="/baked_greats"
+      >
         Baked Greats
       </NavLink>
-      <NavLink className="nav-btn nav-text" to="/let's_bake!">
+      <NavLink
+        activeStyle={{ backgroundColor: "#7895CB" }}
+        className="nav-btn nav-text"
+        exact
+        to="/let's_bake!"
+      >
         Let's Bake
       </NavLink>
-      <NavLink className="nav-btn nav-text" to="/about">
+      <NavLink
+        activeStyle={{ backgroundColor: "#7895CB" }}
+        className="nav-btn nav-text"
+        exact
+        to="/about"
+      >
         About
       </NavLink>
     </div>
