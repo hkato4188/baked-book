@@ -1,5 +1,108 @@
-.wrapper {
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 5px;
+  font-family: 'Lato';
+  font-size: 1.3em;
+
+
+}
+
+.left {
+
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAFAFA;
+
+
+
+}
+
+.right {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: scroll;
+  background-color: #E8F1F5;
+
+
+}
+
+.image-style {
+  padding-top: -20px;
+}
+
+.recipe-page {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  width: 66.66%;
+
+}
+
+.scroll {
+  height: 10%;
+  overflow: scroll;
+
+
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: #E8F1F5;
+
+
+
+}
+
+/* Track */
+/* ::-webkit-scrollbar-track { */
+/* box-shadow: inset 0 0 5px grey; */
+/* border-radius: 30%; */
+/* } */
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb {
+  background: #035f8d;
+  width: 25px;
+  height: 50px
+}
+
+.info-btn {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flexbox;
   flex-direction: row;
-  flex-wrap: wrap;
+  width: 80px;
+  position: relative;
+  background: #035f8d;
+  padding: 15px 15px;
+  margin: 0 auto;
+  box-shadow: 0 7px #36cdaf;
+  border-radius: 20px;
+}
+
+.info-btn:hover {
+  box-shadow: 0 4px #33b89d;
+  top: 2px;
+}
+
+.info-btn:active {
+  box-shadow: 0 0 #22917b;
+  top: 6px;
+}
+
+.info-text {
+  font-size: 12px;
+  font-weight: 150;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
 }

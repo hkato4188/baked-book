@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from 'react-router-dom'
 
 const initialState = {
     image: '',
@@ -11,20 +12,29 @@ const initialState = {
 }
 
 function AddDessertForm({ handleSubmit }) {
-    // function handleSubmit(event, newDessert) {
-    // event.preventDefault()
-    // fetch(`http://localhost:8001/Recipes`, {
-    // method: "POST",
-    // headers: {
-    // 'content-type': 'application/json',
-    // 'accepts': 'application/json'
-    // },
-    // body: JSON.stringify(newDessert)
-    // })
-    // .then((r) => r.json())
-    // // .then((newDessertData) => setDessertList([...Desserts, newDessertData]))
-    // }
+
     const [dessertForm, setDessertForm] = useState(initialState)
+
+    const history = useHistory()
+
+    function handleSubmit(event) {
+        event.preventDefault()
+        const formData = {
+            // dessert: { image, name, source, description, author, ingredients, instructions }
+        }
+        fetch("/add_projects", {
+            method: "POST",
+            headers: {
+                'content-type': 'application/json',
+                'accepts': 'application/json'
+            },
+            body: JSON.stringify(formData)
+        })
+            .then((r) => r.json())
+            .then((data) => {
+                history.push(`/add_dessert/${data.dessert.id}`)
+            })
+    }
     function changeDessertForm(event) {
         const { name, value } = event.target
         const updateDessertForm = { ...dessertForm, [name]: value }

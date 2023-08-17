@@ -5,18 +5,13 @@ import "./css/DessertDetail.css";
 function DessertDetail() {
   const [dessert, setDessert] = useState(null)
   const { id } = useParams();
-  // const [selectedDessert, setSelectedDessert] = useState(); //this could be the fix!
+
 
   useEffect(() => {
     fetch(`http://localhost:8001/Recipes/${id}`)
       .then((response) => response.json())
       .then((data) => setDessert(data));
   }, [id]);
-  // const renderInstructions = dessert.instructions.map((step) => <li>{step}</li>);
-  // const renderIngredients = dessert.ingredients.map((ingredient) => (
-  // <li>{ingredient}</li>
-  // ));
-  // 
 
 
 
@@ -36,19 +31,31 @@ function DessertDetail() {
     <li>{ingredient}</li>
   ));
   return (
-    <div className="dessert-detail">
-      <img
-        className="dessert-image"
-        src={dessert.image}
-        alt={dessert.name}
-      />
-      <h4>{dessert.Name}</h4>
-      <h5>{`${dessert.description.substring(0, 200)} ...`}</h5>
-      <ol>{renderIngredients}</ol>
-      <ul>{renderInstructions}</ul>
-      <button>
-        <a href={dessert.source}>Learn More</a>
-      </button>
+    <div className="container">
+      <div className="left">
+        <img className="image-style"
+          src={dessert.image}
+          alt={dessert.name}
+        />
+      </div>
+      <div className="right">
+        <div className="recipe-page">
+          <h4>{dessert.Name}</h4>
+          <h3>Description</h3>
+          <h5>{dessert.description}</h5>
+          <h3>Ingredients</h3>
+          <div className="scroll">
+            <ol>{renderIngredients}</ol>
+          </div>
+          <h3>Instructions</h3>
+          <div className="scroll">
+            <ul>{renderInstructions}</ul>
+          </div>
+          <button className="info-btn">
+            <a href={dessert.source} className='info-text'>Learn More</a>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

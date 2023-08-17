@@ -13,7 +13,7 @@ function DessertCard({ dessert }) {
         <p>{`${description.substring(0, 120)} ...`}</p>
       </div>
 
-      <button className="recipe-btn ">
+      <button className="recipe-btn " >
         <Link className="recipe-text" to={`/desserts/${id}`}>
           Full Recipe
         </Link>
