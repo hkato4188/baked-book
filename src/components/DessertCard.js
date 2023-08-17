@@ -5,6 +5,8 @@ import "./css/DessertCard.css";
 function DessertCard({ dessert }) {
   const { id, Image, Name, Description } = dessert;
 
+  console.log(dessert);
+
   return (
     <div className="dessert-card">
       <img className="dessert-image" src={Image} alt={Name} />

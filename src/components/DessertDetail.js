@@ -12,12 +12,12 @@ function DessertDetail() {
       .then((data) => setSelectedDessert(data));
   }, [id]);
 
-  const Method = selectedDessert.Method.map((step) => <li>{step}</li>);
-  const Ingredients = selectedDessert.Ingredients.map((ingredient) => (
+  if (!selectedDessert) return <h1>...Loading</h1>;
+  const instructions = selectedDessert.Method.map((step) => <li>{step}</li>);
+  const rawIngredients = selectedDessert.Ingredients.map((ingredient) => (
     <li>{ingredient}</li>
   ));
 
-  if (!selectedDessert) return <h1>...Loading</h1>;
   return (
     <div className="dessert-detail">
       <img
@@ -27,11 +27,11 @@ function DessertDetail() {
       />
       <h4>{selectedDessert.Name}</h4>
       <h5>{`${selectedDessert.Description.substring(0, 200)} ...`}</h5>
-      <ol>{Ingredients}</ol>
-      <ul>{Method}</ul>
+      <ol>{rawIngredients}</ol>
+      <ul>{instructions}</ul>
       <button>
         <a href={selectedDessert.Source}>Learn More</a>
-      </button>
+      </button>{" "}
     </div>
   );
 }
