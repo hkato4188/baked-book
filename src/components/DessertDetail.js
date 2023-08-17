@@ -3,9 +3,8 @@ import { useParams } from "react-router-dom";
 import "./css/DessertDetail.css";
 
 function DessertDetail() {
-  const [dessert, setDessert] = useState(null)
+  const [dessert, setDessert] = useState(null);
   const { id } = useParams();
-
 
   useEffect(() => {
     fetch(`http://localhost:8001/Recipes/${id}`)
@@ -13,30 +12,28 @@ function DessertDetail() {
       .then((data) => setDessert(data));
   }, [id]);
 
-
-
   if (!dessert) return <h1>...Loading</h1>;
 
-  const { name,
+  const {
+    name,
     image,
     source,
     description,
     author,
     ingredients,
-    instructions } = dessert
+    instructions,
+  } = dessert;
 
-  const renderInstructions = dessert.instructions.map((step) => <li>{step}
-  </li>);
+  const renderInstructions = dessert.instructions.map((step) => (
+    <li>{step}</li>
+  ));
   const renderIngredients = dessert.ingredients.map((ingredient) => (
     <li>{ingredient}</li>
   ));
   return (
     <div className="container">
       <div className="left">
-        <img className="image-style"
-          src={dessert.image}
-          alt={dessert.name}
-        />
+        <img className="image-style" src={dessert.image} alt={dessert.name} />
       </div>
       <div className="right">
         <div className="recipe-page">
@@ -51,8 +48,10 @@ function DessertDetail() {
           <div className="scroll">
             <ul>{renderInstructions}</ul>
           </div>
-          <button className="info-btn">
-            <a href={dessert.source} className='info-text'>Learn More</a>
+          <button className="info-btn center">
+            <a href={dessert.source} className="info-text">
+              Learn More
+            </a>
           </button>
         </div>
       </div>
