@@ -1,3 +1,7 @@
+# baked-book
+
+### Why bake goods, when you can bake greats!
+
 # Getting Started with your own BakedBook!
 
 ## Available Scripts
@@ -14,34 +18,16 @@ Open [http://localhost:8000](http://localhost:8000) to view it in your browser.
 Runs a db.json server in the development mode.\
 Open [http://localhost:8001/recipes](http://localhost:8001/recipes) to view it in your browser.
 
-## Learn More
+## Build your own BakedBook
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Fork and Clone this repo and you can...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Alt text](about.png)
 
-### Code Splitting
+##### Have access to a super sweet display of desserts:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Alt text](desserts-page.png)
 
-### Analyzing the Bundle Size
+##### Add your own special recipe:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# baked-book
+![Alt text](add-dessert.png)
