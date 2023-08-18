@@ -2,4 +2,5 @@ FH/HK   1. Create react-app and git tracking
 FH/HK   2. Outline component hierarchy
 FH      3. Create component structure
 HK      4. Refactor and render component structure
+FH HK   5. Write ReadMe
             
