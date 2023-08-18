@@ -14,32 +14,23 @@ function DessertDetail() {
 
   if (!dessert) return <h1>...Loading</h1>;
 
-  const {
-    name,
-    image,
-    source,
-    description,
-    author,
-    ingredients,
-    instructions,
-  } = dessert;
+  const { name, image, source, description, ingredients, instructions } =
+    dessert;
 
-  const renderInstructions = dessert.instructions.map((step) => (
-    <li>{step}</li>
-  ));
-  const renderIngredients = dessert.ingredients.map((ingredient) => (
+  const renderInstructions = instructions.map((step) => <li>{step}</li>);
+  const renderIngredients = ingredients.map((ingredient) => (
     <li>{ingredient}</li>
   ));
   return (
     <div className="container">
       <div className="left">
-        <img className="image-style" src={dessert.image} alt={dessert.name} />
+        <img className="image-style" src={image} alt={name} />
       </div>
       <div className="right">
         <div className="recipe-page">
-          <h4>{dessert.Name}</h4>
+          <h4>{name}</h4>
           <h3>Description</h3>
-          <h5>{dessert.description}</h5>
+          <h5>{description}</h5>
           <h3>Ingredients</h3>
           <div className="scroll">
             <ol>{renderIngredients}</ol>
@@ -49,7 +40,7 @@ function DessertDetail() {
             <ul>{renderInstructions}</ul>
           </div>
           <button className="info-btn center">
-            <a href={dessert.source} className="info-text">
+            <a href={source} className="info-text">
               Learn More
             </a>
           </button>

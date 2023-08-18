@@ -1,11 +1,6 @@
 import React, { useState } from "react";
-
-import { useHistory } from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 import "./css/AddDessertForm.css";
-
-
-
-
 
 function AddDessertForm() {
   const initialState = {
@@ -53,89 +48,92 @@ function AddDessertForm() {
   }
 
   console.log(formData);
-  return(
+  return (
     <div className="new-container">
-            <div className='new-dessert-header'>
-                <h2>New Dessert</h2>
-            </div>
-            <form onSubmit={(event) => {
-                handleSubmit(event, dessertForm)
-                setDessertForm(initialState)
-
-            }}>
-                <div className="dessert-input">
-
-                    <input
-                        className='dessert-url'
-                        name='image'
-                        type='text'
-                        placeholder="Dessert Image-URL"
-                        value={dessertForm.image}
-                        onChange={changeDessertForm}
-                    />
-                    <input
-                        className='dessert-name'
-                        name='name'
-                        type='text'
-                        placeholder="Dessert Name"
-                        value={dessertForm.name}
-                        onChange={changeDessertForm}
-                    />
-                    <input
-                        className='dessert-source'
-                        name='source'
-                        type='text'
-                        placeholder="Dessert Source"
-                        value={dessertForm.source}
-                        onChange={changeDessertForm}
-                    />
-                    <input
-                        className='dessert-author'
-                        name='author'
-                        type='text'
-                        placeholder="Dessert Author"
-                        value={dessertForm.author}
-                        onChange={changeDessertForm}
-                    />
-                    <div className="inputscroll">
-                        <input
-                            className='dessert-description'
-                            name='description'
-                            type='text'
-                            placeholder="Dessert Description"
-                            value={dessertForm.description}
-                            onChange={changeDessertForm}
-                        />
-                    </div>
-                    <div className="inputscroll">
-                        <input
-                            className='dessert-ingredients'
-                            name='ingredients'
-                            type='text'
-                            placeholder="Dessert Ingredients: 
+      <div className="new-dessert-header">
+        <h2>New Dessert</h2>
+      </div>
+      <form onSubmit={handleSubmit}>
+        <div className="dessert-input">
+          <label>Image: </label>
+          <input
+            className="dessert-url"
+            name="image"
+            type="text"
+            placeholder="Dessert Image-URL"
+            value={image}
+            onChange={handleChange}
+          />
+          <label>Name: </label>
+          <input
+            className="dessert-name"
+            name="name"
+            type="text"
+            placeholder="Dessert Name"
+            value={name}
+            onChange={handleChange}
+          />
+          <label>Source: </label>
+          <input
+            className="dessert-source"
+            name="source"
+            type="text"
+            placeholder="Dessert Source"
+            value={source}
+            onChange={handleChange}
+          />
+          <label>Author: </label>
+          <input
+            className="dessert-author"
+            name="author"
+            type="text"
+            placeholder="Dessert Author"
+            value={author}
+            onChange={handleChange}
+          />
+          <div className="inputscroll">
+            <label>Description: </label>
+            <input
+              className="dessert-description"
+              name="description"
+              type="text"
+              placeholder="Dessert Description"
+              value={description}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="inputscroll">
+            <label>Ingredients: </label>
+            <input
+              className="dessert-ingredients"
+              name="ingredients"
+              type="text"
+              placeholder="Dessert Ingredients: 
                                 Place comma after each ingredient without spaces"
-                            value={dessertForm.ingredients}
-                            onChange={changeDessertForm}
-                        />
-                    </div>
-                    <div className="inputscroll">
-                        <input
-                            className='dessert-instructions'
-                            name='instructions'
-                            type='text'
-                            placeholder="Dessert Instructions:
+              value={ingredients}
+              onChange={handleChange}
+            />
+          </div>
+          <div className="inputscroll">
+            <label>Instructions: </label>
+            <input
+              className="dessert-instructions"
+              name="instructions"
+              type="text"
+              placeholder="Dessert Instructions:
                                 Place comma after each instructions without spaces"
-                            value={dessertForm.instructions}
-                            onChange={changeDessertForm}
-                        />
-                    </div>
+              value={instructions}
+              onChange={handleChange}
+            />
+          </div>
 
-                    <button className='add-dessert-btn' type='submit'>🍰 Cake Me 🍰</button>
-                </div>
-            </form>
+          <button className="add-dessert-btn" type="submit">
+            🍰 Cake Me 🍰
+          </button>
         </div>
-    )
-
+      </form>
+    </div>
+  );
 }
 
 export default AddDessertForm;
