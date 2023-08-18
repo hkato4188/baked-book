@@ -27,15 +27,12 @@ function AddDessertForm() {
     fetch(`http://localhost:8001/Recipes`, {
       method: "POST",
       headers: {
-        "content-type": "application/json",
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(formData),
     })
       .then((r) => r.json())
-      .then((data) => {
-        console.log(data);
-        history.push(`desserts/${data.id}`);
-      });
+      .then((data) => history.push(`/desserts/${data.id}`));
   }
   function handleChange(e) {
     let key = e.target.name;
