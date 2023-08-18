@@ -1,18 +1,24 @@
 import React, { useState } from "react";
+
 import { useHistory } from 'react-router-dom'
 import "./css/AddDessertForm.css";
 
+
+
+
 const initialState = {
-    image: '',
-    name: '',
-    source: '',
-    description: '',
-    author: '',
-    ingredients: '',
-    instructions: ''
-}
+  image: "",
+  name: "",
+  source: "",
+  description: "",
+  author: "",
+  ingredients: "",
+  instructions: "",
+};
 
 function AddDessertForm({ handleSubmit }) {
+  const [dessertForm, setDessertForm] = useState(initialState);
+
 
     const [dessertForm, setDessertForm] = useState(initialState)
 
@@ -123,6 +129,9 @@ function AddDessertForm({ handleSubmit }) {
             </form>
         </div>
     )
+
+ 
+
 }
 
-export default AddDessertForm
+export default AddDessertForm;
