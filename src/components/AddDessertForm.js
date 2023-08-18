@@ -32,7 +32,7 @@ function AddDessertForm() {
       body: JSON.stringify(formData),
     })
       .then((r) => r.json())
-      .then((data) => history.push(`/desserts/${data.id}`));
+      .then((data) => history.push(`/desserts`));
   }
   function handleChange(e) {
     let key = e.target.name;
