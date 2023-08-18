@@ -1,5 +1,11 @@
 import React, { useState } from "react";
-import { useHistory } from "react-router-dom";
+
+import { useHistory } from 'react-router-dom'
+import "./css/AddDessertForm.css";
+
+
+
+
 
 function AddDessertForm() {
   const initialState = {
@@ -47,87 +53,89 @@ function AddDessertForm() {
   }
 
   console.log(formData);
-  return (
-    <div>
-      <h2>New Dessert</h2>
-      <form onSubmit={handleSubmit}>
-        <label>Image: </label>
-        <input
-          className=""
-          name="image"
-          type="text"
-          placeholder="Dessert Image-URL"
-          value={image}
-          onChange={handleChange}
-        />
-        <br />
-        <label>Name: </label>
-        <input
-          className=""
-          name="name"
-          type="text"
-          placeholder="Dessert Name"
-          value={name}
-          onChange={handleChange}
-        />
-        <br />
-        <label>Source: </label>
-        <input
-          className=""
-          name="source"
-          type="text"
-          placeholder="Dessert Source"
-          value={source}
-          onChange={handleChange}
-        />
-        <br />
-        <label>Description:</label>
-        <input
-          className=""
-          name="description"
-          type="text"
-          placeholder="No spaces, comma separated!"
-          value={description}
-          onChange={handleChange}
-        />
-        <br />
-        <label>Author: </label>
-        <input
-          className=""
-          name="author"
-          type="text"
-          placeholder="Dessert Author"
-          value={author}
-          onChange={handleChange}
-        />
-        <br />
-        <label>Ingredients: </label>
-        <input
-          className=""
-          name="ingredients"
-          type="text"
-          placeholder="No spaces, comma separated!"
-          value={ingredients}
-          onChange={handleChange}
-        />
-        <br />
-        <label>Instructions: </label>
-        <input
-          className=""
-          name="instructions"
-          type="text"
-          placeholder="Dessert Instructions"
-          value={instructions}
-          onChange={handleChange}
-        />
-        <br />
+  return(
+    <div className="new-container">
+            <div className='new-dessert-header'>
+                <h2>New Dessert</h2>
+            </div>
+            <form onSubmit={(event) => {
+                handleSubmit(event, dessertForm)
+                setDessertForm(initialState)
 
-        <button className="" type="submit">
-          🍰 Cake Me 🍰
-        </button>
-      </form>
-    </div>
-  );
+            }}>
+                <div className="dessert-input">
+
+                    <input
+                        className='dessert-url'
+                        name='image'
+                        type='text'
+                        placeholder="Dessert Image-URL"
+                        value={dessertForm.image}
+                        onChange={changeDessertForm}
+                    />
+                    <input
+                        className='dessert-name'
+                        name='name'
+                        type='text'
+                        placeholder="Dessert Name"
+                        value={dessertForm.name}
+                        onChange={changeDessertForm}
+                    />
+                    <input
+                        className='dessert-source'
+                        name='source'
+                        type='text'
+                        placeholder="Dessert Source"
+                        value={dessertForm.source}
+                        onChange={changeDessertForm}
+                    />
+                    <input
+                        className='dessert-author'
+                        name='author'
+                        type='text'
+                        placeholder="Dessert Author"
+                        value={dessertForm.author}
+                        onChange={changeDessertForm}
+                    />
+                    <div className="inputscroll">
+                        <input
+                            className='dessert-description'
+                            name='description'
+                            type='text'
+                            placeholder="Dessert Description"
+                            value={dessertForm.description}
+                            onChange={changeDessertForm}
+                        />
+                    </div>
+                    <div className="inputscroll">
+                        <input
+                            className='dessert-ingredients'
+                            name='ingredients'
+                            type='text'
+                            placeholder="Dessert Ingredients: 
+                                Place comma after each ingredient without spaces"
+                            value={dessertForm.ingredients}
+                            onChange={changeDessertForm}
+                        />
+                    </div>
+                    <div className="inputscroll">
+                        <input
+                            className='dessert-instructions'
+                            name='instructions'
+                            type='text'
+                            placeholder="Dessert Instructions:
+                                Place comma after each instructions without spaces"
+                            value={dessertForm.instructions}
+                            onChange={changeDessertForm}
+                        />
+                    </div>
+
+                    <button className='add-dessert-btn' type='submit'>🍰 Cake Me 🍰</button>
+                </div>
+            </form>
+        </div>
+    )
+
 }
 
 export default AddDessertForm;
