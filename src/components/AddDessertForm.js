@@ -1,111 +1,130 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 
-const initialState = {
-  image: "",
-  name: "",
-  source: "",
-  description: "",
-  author: "",
-  ingredients: "",
-  instructions: "",
-};
-
-function AddDessertForm({ handleSubmit }) {
-  const [dessertForm, setDessertForm] = useState(initialState);
-
+function AddDessertForm() {
+  const initialState = {
+    image: "",
+    name: "",
+    source: "",
+    description: "",
+    author: "",
+    ingredients: [],
+    instructions: [],
+  };
+  const [formData, setFormData] = useState(initialState);
   const history = useHistory();
+  const {
+    image,
+    name,
+    source,
+    description,
+    author,
+    ingredients,
+    instructions,
+  } = formData;
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    const formData = {
-      // dessert: { image, name, source, description, author, ingredients, instructions }
-    };
-    fetch("/add_projects", {
+  function handleSubmit() {
+    fetch(`http://localhost:8001/Recipes`, {
       method: "POST",
       headers: {
         "content-type": "application/json",
-        accepts: "application/json",
       },
       body: JSON.stringify(formData),
     })
       .then((r) => r.json())
       .then((data) => {
-        history.push(`/add_dessert/${data.dessert.id}`);
+        console.log(data);
+        history.push(`desserts/${data.id}`);
       });
   }
-  function changeDessertForm(event) {
-    const { name, value } = event.target;
-    const updateDessertForm = { ...dessertForm, [name]: value };
-    setDessertForm(updateDessertForm);
+  function handleChange(e) {
+    let key = e.target.name;
+    let newValue = e.target.value;
+    if (key === "ingredients" || key === "instructions") {
+      newValue = e.target.value.split(", ");
+    }
+    setFormData({
+      ...formData,
+      [key]: newValue,
+    });
   }
+
+  console.log(formData);
   return (
     <div>
       <h2>New Dessert</h2>
-      <form
-        onSubmit={(event) => {
-          handleSubmit(event, dessertForm);
-          setDessertForm(initialState);
-        }}
-      >
-        <h3>
-          <input
-            className=""
-            name="image"
-            type="text"
-            placeholder="Dessert Image-URL"
-            value={dessertForm.image}
-            onChange={changeDessertForm}
-          />
-          <input
-            className=""
-            name="name"
-            type="text"
-            placeholder="Dessert Name"
-            value={dessertForm.name}
-            onChange={changeDessertForm}
-          />
-          <input
-            className=""
-            name="source"
-            type="text"
-            placeholder="Dessert Source"
-            value={dessertForm.source}
-            onChange={changeDessertForm}
-          />
-          <input
-            className=""
-            name="description"
-            type="text"
-            placeholder="Dessert Description"
-            value={dessertForm.description}
-            onChange={changeDessertForm}
-          />
-          <input
-            className=""
-            name="author"
-            type="text"
-            placeholder="Dessert Author"
-            value={dessertForm.author}
-            onChange={changeDessertForm}
-          />
-          <input
-            className=""
-            name="ingredients"
-            type="text"
-            placeholder="Dessert Ingredients"
-            value={dessertForm.ingredients}
-            onChange={changeDessertForm}
-          />
-          <input
-            className=""
-            name="instructions"
-            type="text"
-            placeholder="Dessert Instructions"
-            value={dessertForm.instructions}
-            onChange={changeDessertForm}
-          />
-        </h3>
+      <form onSubmit={handleSubmit}>
+        <label>Image: </label>
+        <input
+          className=""
+          name="image"
+          type="text"
+          placeholder="Dessert Image-URL"
+          value={image}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Name: </label>
+        <input
+          className=""
+          name="name"
+          type="text"
+          placeholder="Dessert Name"
+          value={name}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Source: </label>
+        <input
+          className=""
+          name="source"
+          type="text"
+          placeholder="Dessert Source"
+          value={source}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Description:</label>
+        <input
+          className=""
+          name="description"
+          type="text"
+          placeholder="No spaces, comma separated!"
+          value={description}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Author: </label>
+        <input
+          className=""
+          name="author"
+          type="text"
+          placeholder="Dessert Author"
+          value={author}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Ingredients: </label>
+        <input
+          className=""
+          name="ingredients"
+          type="text"
+          placeholder="No spaces, comma separated!"
+          value={ingredients}
+          onChange={handleChange}
+        />
+        <br />
+        <label>Instructions: </label>
+        <input
+          className=""
+          name="instructions"
+          type="text"
+          placeholder="Dessert Instructions"
+          value={instructions}
+          onChange={handleChange}
+        />
+        <br />
+
         <button className="" type="submit">
           🍰 Cake Me 🍰
         </button>
