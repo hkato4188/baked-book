@@ -24,7 +24,8 @@ function AddDessertForm() {
     instructions,
   } = formData;
 
-  function handleSubmit() {
+  function handleSubmit(e) {
+    e.preventDefault();
     fetch(`http://localhost:8001/Recipes`, {
       method: "POST",
       headers: {
@@ -33,7 +34,7 @@ function AddDessertForm() {
       body: JSON.stringify(formData),
     })
       .then((r) => r.json())
-      .then((data) => history.push(`/desserts`));
+      .then((data) => history.push(`/desserts/${data.id}`));
   }
   function handleChange(e) {
     let key = e.target.name;
