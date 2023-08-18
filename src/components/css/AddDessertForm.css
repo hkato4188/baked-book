@@ -1,0 +1,54 @@
+.new-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+}
+
+.new-dessert-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dessert-input {
+    margin-top: 20px;
+}
+
+.dessert-input input {
+
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+
+}
+
+.add-dessert-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7fbcd2;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+
+
+}
+
+.add-dessert-btn:hover {
+    background-color: #027eeb;
+}
+
+.inputscroll input[type="text"] {
+    width: 95%;
+    padding: 20px;
+    margin-bottom: 10px;
+
+    resize: vertical;
+    overflow-y: auto;
+}

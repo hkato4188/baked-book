@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useHistory } from 'react-router-dom'
+import "./css/AddDessertForm.css";
 
 const initialState = {
     image: '',
@@ -41,16 +42,19 @@ function AddDessertForm({ handleSubmit }) {
         setDessertForm(updateDessertForm)
     }
     return (
-        <div >
-            <h2>New Dessert</h2>
+        <div className="new-container">
+            <div className='new-dessert-header'>
+                <h2>New Dessert</h2>
+            </div>
             <form onSubmit={(event) => {
                 handleSubmit(event, dessertForm)
                 setDessertForm(initialState)
 
             }}>
-                <h3>
+                <div className="dessert-input">
+
                     <input
-                        className=''
+                        className='dessert-url'
                         name='image'
                         type='text'
                         placeholder="Dessert Image-URL"
@@ -58,7 +62,7 @@ function AddDessertForm({ handleSubmit }) {
                         onChange={changeDessertForm}
                     />
                     <input
-                        className=''
+                        className='dessert-name'
                         name='name'
                         type='text'
                         placeholder="Dessert Name"
@@ -66,7 +70,7 @@ function AddDessertForm({ handleSubmit }) {
                         onChange={changeDessertForm}
                     />
                     <input
-                        className=''
+                        className='dessert-source'
                         name='source'
                         type='text'
                         placeholder="Dessert Source"
@@ -74,39 +78,48 @@ function AddDessertForm({ handleSubmit }) {
                         onChange={changeDessertForm}
                     />
                     <input
-                        className=''
-                        name='description'
-                        type='text'
-                        placeholder="Dessert Description"
-                        value={dessertForm.description}
-                        onChange={changeDessertForm}
-                    />
-                    <input
-                        className=''
+                        className='dessert-author'
                         name='author'
                         type='text'
                         placeholder="Dessert Author"
                         value={dessertForm.author}
                         onChange={changeDessertForm}
                     />
-                    <input
-                        className=''
-                        name='ingredients'
-                        type='text'
-                        placeholder="Dessert Ingredients"
-                        value={dessertForm.ingredients}
-                        onChange={changeDessertForm}
-                    />
-                    <input
-                        className=''
-                        name='instructions'
-                        type='text'
-                        placeholder="Dessert Instructions"
-                        value={dessertForm.instructions}
-                        onChange={changeDessertForm}
-                    />
-                </h3>
-                <button className='' type='submit'>🍰 Cake Me 🍰</button>
+                    <div className="inputscroll">
+                        <input
+                            className='dessert-description'
+                            name='description'
+                            type='text'
+                            placeholder="Dessert Description"
+                            value={dessertForm.description}
+                            onChange={changeDessertForm}
+                        />
+                    </div>
+                    <div className="inputscroll">
+                        <input
+                            className='dessert-ingredients'
+                            name='ingredients'
+                            type='text'
+                            placeholder="Dessert Ingredients: 
+                                Place comma after each ingredient without spaces"
+                            value={dessertForm.ingredients}
+                            onChange={changeDessertForm}
+                        />
+                    </div>
+                    <div className="inputscroll">
+                        <input
+                            className='dessert-instructions'
+                            name='instructions'
+                            type='text'
+                            placeholder="Dessert Instructions:
+                                Place comma after each instructions without spaces"
+                            value={dessertForm.instructions}
+                            onChange={changeDessertForm}
+                        />
+                    </div>
+
+                    <button className='add-dessert-btn' type='submit'>🍰 Cake Me 🍰</button>
+                </div>
             </form>
         </div>
     )
